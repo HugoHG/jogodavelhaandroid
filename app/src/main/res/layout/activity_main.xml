@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.senaijandira.jogodaforca.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blabla"
+        android:id="@+id/txt_dica"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/forca"
+        android:layout_marginLeft="-150dp"
+        android:id="@+id/img"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="teste"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="-35dp"
+        android:id="@+id/txt_underlines"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="1"
+        android:hint="Insira a próxima letra"
+        android:id="@+id/txt_letra"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/btn_ok"
+        android:onClick="verificar"/>
+
+</LinearLayout>
